@@ -1,3 +1,3 @@
 # Learning_HTML
 
-[Âü°íÇÑ »çÀÌÆ®](https://opentutorials.org/course/3084/)
+[ì°¸ê³ í•œ ì‚¬ì´íŠ¸](https://opentutorials.org/course/3084/)
