@@ -1,0 +1,14 @@
+#index {
+    font-size: 20pt;
+    color: darkcyan;
+    font-weight: 1000;
+}
+#index li {
+    font-size: 17pt;
+    font-weight: 500;
+}
+a {
+    color: green;
+    text-decoration: none;
+    background-color: azure
+}
