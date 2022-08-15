@@ -1,12 +1,21 @@
-#index {
+.index {
     font-size: 20pt;
     color: darkcyan;
     font-weight: 1000;
 }
-#index li {
+.index li {
     font-size: 17pt;
     font-weight: 500;
 }
+#title {
+    color: rgb(0, 54, 43);
+    font-size: 28pt;
+}
+.subtitle {
+    color: rgb(13, 84, 102);
+    font-size: 21pt;
+}
+
 a {
     color: green;
     text-decoration: none;
