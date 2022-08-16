@@ -17,7 +17,12 @@
 }
 
 a {
-    color: green;
+    color: darkslateblue;
     text-decoration: none;
-    background-color: azure
+    background-color: azure;
 }
+
+.index a:visited, .index a:hover, .index a:active {
+    color:darkcyan;
+}
+
