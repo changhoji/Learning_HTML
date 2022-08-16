@@ -1,9 +1,22 @@
-.index {
+a {
+    color: darkslateblue;
+    text-decoration: none;
+    background-color: azure;
+}
+
+.index>a:visited, .index>a:hover, .index>a:active, .index>a:link {
+    font-size: 20pt;
+    color: darkcyan;
+    font-weight: 740;
+}
+
+.index li{
     font-size: 20pt;
     color: darkcyan;
     font-weight: 740;
 }
 .index li *{
+    color: darkcyan;
     font-size: 16pt;
     font-weight: 500;
     margin-bottom: 5pt;
@@ -23,16 +36,6 @@ h2, subtitle {
     padding-bottom: 0.2em;
 }
 
-a {
-    color: darkslateblue;
-    text-decoration: none;
-    background-color: azure;
-}
-
-.index a:visited, .index a:hover, .index a:active, .index a:link {
-    color:darkcyan;
-}
-
 h3 {
     font-size: 19pt;
     color: cadetblue;
@@ -41,8 +44,4 @@ h3 {
 
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-code {
-    background: powderblue;
 }
