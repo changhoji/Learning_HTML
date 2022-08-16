@@ -16,4 +16,11 @@
 
 ## 22.08.17
 
+### 의문
+[이 페이지](https://changhoji.github.io/html-css-javascript/CSS/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/post/html_css.html)를 만드는 과정에서 결과는 html파일을 iframe으로 가져오면 되는데 코드는 어떻게 보여줘야 할지 고민이 됨.
 
+### 결론1
+[이 사이트](https://mothereff.in/html-entities)를 이용해 코드를 바꾸고 복사 붙여넣기하는 방식으로 해보았다. 다만 이렇게 하면 깃허브에 올려진 해당 코드의 파일과 실시간으로 동기화되는게 아니어서 만족하지 못하고 'html github code embed'로 검색해 더 찾아봤다.
+
+### 결론2
+[이 사이트](https://emgithub.com/)를 이용해 내 깃허브 저장소에 있는 코드를 임베드 할 수 있었다. 현재가 이상태
