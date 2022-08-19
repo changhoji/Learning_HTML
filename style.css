@@ -21,6 +21,9 @@ a {
     font-weight: 500;
     margin-bottom: 5pt;
 }
+li {
+    margin-left: 30px;
+}
 #title {
     color: rgb(0, 54, 43);
     font-size: 28pt;
