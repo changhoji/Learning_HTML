@@ -1,5 +1,7 @@
 # Learning_HTML_CSS_JAVASCRIPT
 
+<h2><a href="https://changhoji.github.io/html-css-javascript" target="_blank">index.html</a></h2>
+
 ## [참고한 사이트](https://opentutorials.org/course/3084/)
 
 ## 22.08.16
