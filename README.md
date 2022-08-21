@@ -1,6 +1,6 @@
 # Learning_HTML_CSS_JAVASCRIPT
 
-<h2><a href="https://changhoji.github.io/html-css-javascript" target="_blank">index.html</a></h2>
+## [index](https://changhoji.github.io/html-css-javascript)
 
 ## [참고한 사이트](https://opentutorials.org/course/3084/)
 
@@ -26,3 +26,8 @@
 
 ### 결론2
 [이 사이트](https://emgithub.com/)를 이용해 내 깃허브 저장소에 있는 코드를 임베드 할 수 있었다. 현재가 이상태
+
+## 22.08.22
+
+### 배운점
+position 값 중 fixed를 이용하면 스크롤을 내려도 위치가 고정되기 때문에 항상 페이지 위쪽에 고정되어있는 유튜브 검색바나 메뉴바를 표현하기에 사용할 수 있을것 같다.
