@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    =====html=====
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            .parent, #other, #grand {
+                border: 5px solid tomato;
+            }
+            #grand {
+                position: relative;
+            }
+            #me1, #me2 {
+                background-color: black;
+                color: white;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="other">other</div>
+        <div id="grand">
+            =====grand=====
+            <div class="parent">
+                parent
+                <div id="me1">me1</div>
+            </div>
+        </div>
+        <div class="parent">
+            <div id="me2">me2</div>
+        </div>
+    </body>
+</html>
