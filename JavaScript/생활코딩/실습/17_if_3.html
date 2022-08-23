@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            head {
+                color: darkslategrey;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>WEB</h1>
+        <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'darkslategrey';
+        document.querySelector('body').style.color='white';
+        ">
+        <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color='black';
+        ">
+
+        <input type="button" id="theme" value="night" onclick="
+        var target = document.querySelector('body');
+        if (this.value == 'night') {
+            target.style.backgroundColor = 'darkslategrey';
+            target.style.color='white';
+            this.value = 'day';
+        }
+        else {
+            target.style.backgroundColor = 'white';
+            target.style.color='black';
+            this.value = 'night';
+        }
+        "
+    </body>
+</html>
