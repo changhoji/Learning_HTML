@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function nightDayHandler(self) {
+                var target = document.querySelector('body');
+                if (self.value === 'night') {
+                    target.style.backgroundColor = 'darkslategrey';
+                    target.style.color = 'white';
+                    self.value = 'day';
+
+                    var aList = document.querySelectorAll('a');
+                    for (i = 0; i < aList.length; i++) {
+                        aList[i].style.color = 'powderblue';
+                    }
+                }
+                else {
+                    target.style.backgroundColor = 'white';
+                    target.style.color = 'black';
+                    self.value = 'night';
+
+                    var aList = document.querySelectorAll('a');
+                    for (i = 0; i < aList.length; i++) {
+                        aList[i].style.color = 'blue';
+                    }
+                }
+            }
+        </script>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <h1>WEB</h1>
+
+        <ul>
+            <li><a href="ex.html">HTML</a></li>
+            <li><a href="ex.html">CSS</a></li>
+            <li><a href="ex.html">JavaScript</a></li>
+        </ul>
+
+        <input type="button" id="theme" value="night" onclick="nightDayHandler(this);"
+    </body>
+</html>
