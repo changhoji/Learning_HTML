@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+        }
+        .content nav {
+            border-right: 1px solid gray;
+        }
+        .content aside {
+            border-left: 1px solid gray;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            margin-top: -1px;
+            margin-bottom: -1px;
+        }
+        .content main {
+            flex-basis: 600px;
+            flex-grow: 1;
+            flex-shrink: 0;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            margin-top: -1px;
+            margin-bottom: -1px;
+        }
+        nav, aside {
+            padding: 10px;
+            flex-basis: 130px;
+            flex-shrink: 0;
+        }
+        main {
+            padding: 10px;
+        }
+        header {
+            border-bottom: 1px solid gray;
+            padding-left: 20px;
+        }
+        footer {
+            border-top: 1px solid gray;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>생활코딩</h1>
+        </header>
+        <section class="content">
+            <nav>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+            </nav>
+            <main>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro saepe ab nam esse aspernatur debitis adipisci laboriosam incidunt ea dolor quae, doloribus harum cumque quis ex voluptatibus, facere recusandae quas libero laudantium consequatur illum. Nostrum eos itaque, accusamus velit asperiores dolore, corporis quod iste animi, natus possimus totam! Quod aut dolor accusantium deserunt aperiam perferendis iste similique animi qui sed numquam saepe nobis itaque suscipit explicabo delectus totam laboriosam, fuga eum neque est? Eveniet doloremque incidunt nesciunt deleniti modi asperiores officia maiores est natus perferendis, voluptatibus corporis, quasi nemo laborum? Aspernatur voluptas ipsum quibusdam id natus enim minima delectus illo.
+            </main>
+            <aside>
+                AD
+            </aside>
+        </section>
+        <footer>
+            <a href="https://opentutorials.org/course/1">홈페이지</a>
+        </footer>
+    </div>
+</body>
+</html>
