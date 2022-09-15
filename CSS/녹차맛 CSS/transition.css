@@ -1,0 +1,7 @@
+input[type="checkbox"]:checked + p {
+    visibility: hidden;
+    transition: all ease 1s;
+}
+input[type="checkbox"]:not(:checked) + p {
+    visibility: visible;
+}
